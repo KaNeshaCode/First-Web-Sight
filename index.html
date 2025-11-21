@@ -90,7 +90,17 @@ div.mycontainer div {
 	margin:20px;
 	text-align:left;
 }	
-
+.button-transition{
+	background-color:navy;
+	color: white
+	padding:10px20px;
+	transition:background-color 0.3s ease;
+	border:none;
+	cursor:pointer;
+}
+	.button-transition:hover {
+		backgroung-color:darkorange;
+	}
 </style>
 
         <title>My Fab Web page</title>
@@ -105,7 +115,7 @@ age:90
 location:Hawii
 </pre>
 <a href= "test.html" style= "color:black"; target="_blank";>
-<button> new page link </button></a>
+<button class= "button-transition"> new page link </button></a>
  </header>
  </body>
 </html>
